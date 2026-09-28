@@ -1,0 +1,117 @@
+import { GarmentSilhouette } from '../types';
+
+export const GARMENTS: GarmentSilhouette[] = [
+  {
+    id: 'blazer',
+    name: 'Sartorial Oversized Blazer',
+    category: 'Structured Tailoring',
+    description: 'Double-breasted architectural blazer with canvassed chest, notch lapels, and tailored flap pockets.',
+    basePrice: 480,
+    fabricConsumptionYards: 3.4,
+    availableZones: [
+      { id: 'body', label: 'Main Torso & Back' },
+      { id: 'lapel_collar', label: 'Notch Lapel & Collar' },
+      { id: 'sleeves', label: 'Structured Sleeves' },
+      { id: 'pockets_trim', label: 'Flap Pockets & Jetting' },
+    ],
+    careInstructions: [
+      'Specialist Dry Clean Only',
+      'Steam press with protective cloth',
+      'Store on wide-shoulder cedar hanger',
+    ],
+  },
+  {
+    id: 'crewneck',
+    name: 'Atelier Ribbed Pullover',
+    category: 'Knitwear & Fleece',
+    description: 'Sculptural raglan knit pullover featuring gauge-matched ribbed trims and dropped shoulders.',
+    basePrice: 290,
+    fabricConsumptionYards: 2.2,
+    availableZones: [
+      { id: 'body', label: 'Knit Torso Body' },
+      { id: 'lapel_collar', label: 'Ribbed Crew Collar' },
+      { id: 'sleeves', label: 'Raglan Sleeves' },
+      { id: 'pockets_trim', label: 'Cuffs & Rib Hem' },
+    ],
+    careInstructions: [
+      'Hand wash cold in wool detergent',
+      'Dry flat on towel away from heat',
+      'Do not wring or hang wet',
+    ],
+  },
+  {
+    id: 'slip_dress',
+    name: 'Bias-Cut Drape Gown',
+    category: 'Draped Eveningwear',
+    description: 'Fluid bias-cut silhouette that cascades over the natural contours of the body with french seams.',
+    basePrice: 360,
+    fabricConsumptionYards: 3.0,
+    availableZones: [
+      { id: 'body', label: 'Bias Flowing Gown' },
+      { id: 'lapel_collar', label: 'Bust Band & Straps' },
+      { id: 'sleeves', label: 'Draped Shawl / Stole' },
+      { id: 'pockets_trim', label: 'Hem Facing & Trim' },
+    ],
+    careInstructions: [
+      'Dry clean or cold delicate silk cycle',
+      'Warm iron on reverse side damp',
+      'Store flat or softly looped',
+    ],
+  },
+  {
+    id: 'tee',
+    name: 'Heavyweight Boxy Tee',
+    category: 'Essential Jersey',
+    description: '280 GSM high-density combed cotton with reinforced twin-needle stitching and drop shoulder.',
+    basePrice: 140,
+    fabricConsumptionYards: 1.6,
+    availableZones: [
+      { id: 'body', label: 'Torso Panels' },
+      { id: 'lapel_collar', label: 'Ribbed Bound Collar' },
+      { id: 'sleeves', label: 'Boxy Elbow Sleeves' },
+      { id: 'pockets_trim', label: 'Patch Pocket (Optional)' },
+    ],
+    careInstructions: [
+      'Machine wash gentle 30°C',
+      'Wash inside out with similar shades',
+      'Line dry in shade',
+    ],
+  },
+  {
+    id: 'trousers',
+    name: 'Double-Pleated Wide Trouser',
+    category: 'Tailored Bottoms',
+    description: 'High-rise tailored trousers with deep forward pleats, slanted pockets, and an elongated drape leg.',
+    basePrice: 320,
+    fabricConsumptionYards: 2.6,
+    availableZones: [
+      { id: 'body', label: 'Leg Panels & Pleats' },
+      { id: 'lapel_collar', label: 'Extended Waistband' },
+      { id: 'sleeves', label: 'Pocket Welts & Facings' },
+      { id: 'pockets_trim', label: 'Turn-Up Cuffs & Belt Loops' },
+    ],
+    careInstructions: [
+      'Professional dry clean recommended',
+      'Press along vertical front crease',
+      'Hang from cuff clamps',
+    ],
+  },
+  {
+    id: 'tote_scarf',
+    name: 'Textile Swatch & Studio Wrap',
+    category: 'Artisanal Objects',
+    description: 'Oversized generous fringe blanket scarf paired with a structured double-faced canvas studio tote.',
+    basePrice: 180,
+    fabricConsumptionYards: 2.0,
+    availableZones: [
+      { id: 'body', label: 'Main Scarf / Tote Body' },
+      { id: 'lapel_collar', label: 'Woven Border / Straps' },
+      { id: 'sleeves', label: 'Contrast End Panels' },
+      { id: 'pockets_trim', label: 'Twisted Fringe & Accents' },
+    ],
+    careInstructions: [
+      'Spot clean with gentle damp cloth',
+      'Brush fringe with natural bristle',
+    ],
+  },
+];

@@ -1,0 +1,6 @@
+{
+  "name": "ATELIER TRAMA | 3D Textile & Garment Studio",
+  "description": "Real-time 3D and canvas studio for designers and shoppers to customize intricate weave patterns, yarn warp & weft colours, print repeats, and garment silhouettes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
